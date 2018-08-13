@@ -1,0 +1,2 @@
+alter table comment add constraint fk_users_comment foreign key (userid) references users(userid);
+alter table comment add constraint fk_listenguideline_comment foreign key (listenguidelineid) references listenguideline(listenguidelineid);
